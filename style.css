@@ -1,0 +1,30 @@
+* {
+    background-color: rgb(40, 75, 75);
+    box-sizing: border-box;
+}
+
+div.main{
+    text-align: center;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    gap: 60px;
+}
+
+div.table{
+    width: auto;
+    font-size: 40px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+td{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(34, 70, 79);
+}
+td:hover{
+    background-color: rgb(100, 113, 124);
+    cursor: pointer;
+}
